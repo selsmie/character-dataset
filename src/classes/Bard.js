@@ -1,220 +1,23 @@
 const bard = {
-    "index": "bard",
+
     "name": "Bard",
+
     "hit_die": 8,
+
     "proficiency_choices": ["Acrobatics", "Animal Handling", "Arcana", "Athletics", "Deception", "History", "Insight", "Intimidation", "Investigation", "Medicine", "Nature", "Perception", "Performance", "Persuasion", "Religion", "Sleight of Hand", "Stealth", "Survival"],
-    {
-    "choose": 3,
-    "type": "proficiencies",
-    "from": [
-    {
-    "index": "bagpipes",
-    "name": "Bagpipes",
-    "url": "/api/proficiencies/bagpipes"
-    },
-    {
-    "index": "drum",
-    "name": "Drum",
-    "url": "/api/proficiencies/drum"
-    },
-    {
-    "index": "dulcimer",
-    "name": "Dulcimer",
-    "url": "/api/proficiencies/dulcimer"
-    },
-    {
-    "index": "flute",
-    "name": "Flute",
-    "url": "/api/proficiencies/flute"
-    },
-    {
-    "index": "lute",
-    "name": "Lute",
-    "url": "/api/proficiencies/lute"
-    },
-    {
-    "index": "lyre",
-    "name": "Lyre",
-    "url": "/api/proficiencies/lyre"
-    },
-    {
-    "index": "horn",
-    "name": "Horn",
-    "url": "/api/proficiencies/horn"
-    },
-    {
-    "index": "pan-flute",
-    "name": "Pan flute",
-    "url": "/api/proficiencies/pan-flute"
-    },
-    {
-    "index": "shawm",
-    "name": "Shawm",
-    "url": "/api/proficiencies/shawm"
-    },
-    {
-    "index": "viol",
-    "name": "Viol",
-    "url": "/api/proficiencies/viol"
-    }
-    ]
-    }
-    ],
-    "proficiencies": [
-    {
-    "index": "light-armor",
-    "name": "Light armor",
-    "url": "/api/proficiencies/light-armor"
-    },
-    {
-    "index": "simple-weapons",
-    "name": "Simple weapons",
-    "url": "/api/proficiencies/simple-weapons"
-    },
-    {
-    "index": "longswords",
-    "name": "Longswords",
-    "url": "/api/proficiencies/longswords"
-    },
-    {
-    "index": "rapiers",
-    "name": "Rapiers",
-    "url": "/api/proficiencies/rapiers"
-    },
-    {
-    "index": "shortswords",
-    "name": "Shortswords",
-    "url": "/api/proficiencies/shortswords"
-    },
-    {
-    "index": "crossbows-hand",
-    "name": "Crossbows, hand",
-    "url": "/api/proficiencies/crossbows-hand"
-    }
-    ],
-    "saving_throws": [
-    {
-    "index": "dex",
-    "name": "DEX",
-    "url": "/api/ability-scores/dex"
-    },
-    {
-    "index": "cha",
-    "name": "CHA",
-    "url": "/api/ability-scores/cha"
-    }
-    ],
-    "starting_equipment": [
-    {
-    "equipment": {
-    "index": "leather",
-    "name": "Leather",
-    "url": "/api/equipment/leather"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment": {
-    "index": "dagger",
-    "name": "Dagger",
-    "url": "/api/equipment/dagger"
-    },
-    "quantity": 1
-    }
-    ],
-    "starting_equipment_options": [
-    {
-    "choose": 1,
-    "type": "equipment",
-    "from": [
-    {
-    "equipment": {
-    "index": "rapier",
-    "name": "Rapier",
-    "url": "/api/equipment/rapier"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment": {
-    "index": "longsword",
-    "name": "Longsword",
-    "url": "/api/equipment/longsword"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment_option": {
-    "choose": 1,
-    "type": "equipment",
-    "from": {
-    "equipment_category": {
-    "index": "simple-weapons",
-    "name": "Simple Weapons",
-    "url": "/api/equipment-categories/simple-weapons"
-    }
-    }
-    }
-    }
-    ]
-    },
-    {
-    "choose": 1,
-    "type": "equipment",
-    "from": [
-    {
-    "equipment": {
-    "index": "diplomats-pack",
-    "name": "Diplomat's Pack",
-    "url": "/api/equipment/diplomats-pack"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment": {
-    "index": "entertainers-pack",
-    "name": "Entertainer's Pack",
-    "url": "/api/equipment/entertainers-pack"
-    },
-    "quantity": 1
-    }
-    ]
-    },
-    {
-    "choose": 1,
-    "type": "equipment",
-    "from": [
-    {
-    "equipment": {
-    "index": "lute",
-    "name": "Lute",
-    "url": "/api/equipment/lute"
-    }
-    },
-    {
-    "equipment_option": {
-    "choose": 1,
-    "type": "equipment",
-    "from": {
-    "equipment_category": {
-    "index": "musical-instruments",
-    "name": "Musical Instruments",
-    "url": "/api/equipment-categories/musical-instruments"
-    }
-    }
-    }
-    }
-    ]
-    }
-    ],
-    "class_levels": "/api/classes/bard/levels",
-    "subclasses": [
-    {
-    "index": "lore",
-    "name": "Lore",
-    "url": "/api/subclasses/lore"
-    }
-    ],
+
+    "proficiency_choices2": ["Bagpipes", "Drum", "Dulcimer", "Flute", "Lute", "Lyre", "Horn", "Pan flute", "Shawm", "Viol"],
+   
+    "proficiencies": ["Light armor","Simple weapons","Longswords","Rapiers","Shortswords","Crossbows, hand",],
+    
+    "saving_throws": ["DEX", "CHA",],
+    
+    "starting_equipment": [{"name": "Leather", "quantity": 1 },{"name": "Dagger", "quantity": 1}],
+ 
+    "starting_equipment_options": [[{"name": "Rapier", "quantity": 1},{"name": "Longsword", "quantity": 1 },{"name": "Any Simple Weapon", "quantity" : 1}],[{"name": "Diplomat's Pack","quantity": 1 },{"name": "Entertainer's Pack","quantity": 1}],[{"name": "Lute", "quantity": 1}, {"name": "Any Musical Instrument", "quantity": 1}]],    
+    
+    "subclasses": "Lore",
+
     "spellcasting": {
     "info": [
     {
@@ -270,5 +73,6 @@ const bard = {
     "spells": "/api/classes/bard/spells",
     "url": "/api/classes/bard"
     }
+
 
 export default bard

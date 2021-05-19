@@ -1,234 +1,21 @@
 const druid = {
-    "index": "druid",
     "name": "Druid",
+
     "hit_die": 8,
-    "proficiency_choices": [
-    {
-    "choose": 2,
-    "type": "proficiencies",
-    "from": [
-    {
-    "index": "skill-animal-handling",
-    "name": "Skill: Animal Handling",
-    "url": "/api/proficiencies/skill-animal-handling"
-    },
-    {
-    "index": "skill-arcana",
-    "name": "Skill: Arcana",
-    "url": "/api/proficiencies/skill-arcana"
-    },
-    {
-    "index": "skill-insight",
-    "name": "Skill: Insight",
-    "url": "/api/proficiencies/skill-insight"
-    },
-    {
-    "index": "skill-medicine",
-    "name": "Skill: Medicine",
-    "url": "/api/proficiencies/skill-medicine"
-    },
-    {
-    "index": "skill-nature",
-    "name": "Skill: Nature",
-    "url": "/api/proficiencies/skill-nature"
-    },
-    {
-    "index": "skill-perception",
-    "name": "Skill: Perception",
-    "url": "/api/proficiencies/skill-perception"
-    },
-    {
-    "index": "skill-religion",
-    "name": "Skill: Religion",
-    "url": "/api/proficiencies/skill-religion"
-    },
-    {
-    "index": "skill-survival",
-    "name": "Skill: Survival",
-    "url": "/api/proficiencies/skill-survival"
-    }
-    ]
-    }
-    ],
-    "proficiencies": [
-    {
-    "index": "light-armor",
-    "name": "Light armor",
-    "url": "/api/proficiencies/light-armor"
-    },
-    {
-    "index": "medium-armor",
-    "name": "Medium armor",
-    "url": "/api/proficiencies/medium-armor"
-    },
-    {
-    "index": "shields",
-    "name": "Shields",
-    "url": "/api/proficiencies/shields"
-    },
-    {
-    "index": "clubs",
-    "name": "Clubs",
-    "url": "/api/proficiencies/clubs"
-    },
-    {
-    "index": "daggers",
-    "name": "Daggers",
-    "url": "/api/proficiencies/daggers"
-    },
-    {
-    "index": "javelins",
-    "name": "Javelins",
-    "url": "/api/proficiencies/javelins"
-    },
-    {
-    "index": "maces",
-    "name": "Maces",
-    "url": "/api/proficiencies/maces"
-    },
-    {
-    "index": "quarterstaffs",
-    "name": "Quarterstaffs",
-    "url": "/api/proficiencies/quarterstaffs"
-    },
-    {
-    "index": "sickles",
-    "name": "Sickles",
-    "url": "/api/proficiencies/sickles"
-    },
-    {
-    "index": "spears",
-    "name": "Spears",
-    "url": "/api/proficiencies/spears"
-    },
-    {
-    "index": "darts",
-    "name": "Darts",
-    "url": "/api/proficiencies/darts"
-    },
-    {
-    "index": "slings",
-    "name": "Slings",
-    "url": "/api/proficiencies/slings"
-    },
-    {
-    "index": "scimitars",
-    "name": "Scimitars",
-    "url": "/api/proficiencies/scimitars"
-    },
-    {
-    "index": "herbalism-kit",
-    "name": "Herbalism Kit",
-    "url": "/api/proficiencies/herbalism-kit"
-    }
-    ],
-    "saving_throws": [
-    {
-    "index": "int",
-    "name": "INT",
-    "url": "/api/ability-scores/int"
-    },
-    {
-    "index": "wis",
-    "name": "WIS",
-    "url": "/api/ability-scores/wis"
-    }
-    ],
-    "starting_equipment": [
-    {
-    "equipment": {
-    "index": "leather",
-    "name": "Leather",
-    "url": "/api/equipment/leather"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment": {
-    "index": "explorers-pack",
-    "name": "Explorer's Pack",
-    "url": "/api/equipment/explorers-pack"
-    },
-    "quantity": 1
-    }
-    ],
-    "starting_equipment_options": [
-    {
-    "choose": 1,
-    "type": "equipment",
-    "from": [
-    {
-    "equipment": {
-    "index": "shield",
-    "name": "Shield",
-    "url": "/api/equipment/shield"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment_option": {
-    "choose": 1,
-    "type": "equipment",
-    "from": {
-    "equipment_category": {
-    "index": "simple-weapons",
-    "name": "Simple Weapons",
-    "url": "/api/equipment-categories/simple-weapons"
-    }
-    }
-    }
-    }
-    ]
-    },
-    {
-    "choose": 1,
-    "type": "equipment",
-    "from": [
-    {
-    "equipment": {
-    "index": "scimitar",
-    "name": "Scimitar",
-    "url": "/api/equipment/scimitar"
-    },
-    "quantity": 1
-    },
-    {
-    "equipment_option": {
-    "choose": 1,
-    "type": "equipment",
-    "from": {
-    "equipment_category": {
-    "index": "simple-weapons",
-    "name": "Simple Weapons",
-    "url": "/api/equipment-categories/simple-weapons"
-    }
-    }
-    }
-    }
-    ]
-    },
-    {
-    "choose": 1,
-    "type": "equipment",
-    "from": [
-    {
-    "equipment_category": {
-    "index": "druidic-foci",
-    "name": "Druidic Foci",
-    "url": "/api/equipment-categories/druidic-foci"
-    }
-    }
-    ]
-    }
-    ],
-    "class_levels": "/api/classes/druid/levels",
-    "subclasses": [
-    {
-    "index": "land",
-    "name": "Land",
-    "url": "/api/subclasses/land"
-    }
-    ],
+
+    "proficiency_choices": ["Animal Handling","Arcana","Insight","Medicine","Nature","Perception","Religion","Survival"],
+
+    "proficiencies": ["Light armor","Medium armor","Shields","Clubs","Daggers","Javelins","Maces","Quarterstaffs","Sickles","Spears","Darts","Slings","Scimitars","Herbalism Kit"],
+
+    "saving_throws": [ "INT",  "WIS"],
+ 
+    "starting_equipment": [{"name": "Leather", "quantity": 1},{"name": "Explorer's Pack","quantity": 1 }, {"name": "Druidic Focus", "quantity": 1}],
+
+    "starting_equipment_options": [[{"name": "Wooden Shield","quantity": 1},{"name": "Any Simple Weapon", "quantity": 1}],[{"name": "Scimitar", "quantity": 1}, {"name": "Any Simple Weapon", "quantity": 1}]],   
+    
+   
+    "subclasses": ["Land"],
+
     "spellcasting": {
     "info": [
     {
@@ -266,14 +53,9 @@ const druid = {
     }
     ],
     "level": 1,
-    "spellcasting_ability": {
-    "index": "wis",
-    "name": "WIS",
-    "url": "/api/ability-scores/wis"
+    "spellcasting_ability": "WIS",
     }
-    },
-    "spells": "/api/classes/druid/spells",
-    "url": "/api/classes/druid"
-    }
+}
+  
 
 export default druid
