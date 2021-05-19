@@ -11,7 +11,7 @@ const fighter = {
     
     
     "starting_equipment": [],
-    "starting_equipment_options": [[{"name": "Chain Mail","quantity": 1},{"name": "Leather", "quantity": 1, "name2": "Longbow", "quantity2": 1, "arrows":20 }],[{"name": "Shield", "quantity":1, "name2": "Any Martial Weapon", "quantity2": 1},{"name":"Any Martial Weapon", "quantity":2}],[{"name": "Handaxe","quantity": 2},{"name": "Crossbow, light","quantity": 1, "bolts":20}],[{"name": "Dungeoneer's Pack", "quantity": 1},{"name": "Explorer's Pack", "quantity": 1}]],
+    "starting_equipment_options": [[{"name": "Chain Mail","quantity": 1},{"name": "Leather Armour and Longbow", "quantity": 1, "arrows":20 }],[{"name": "Shield and Marital Weapon", "quantity":1},{"name":"Any Martial Weapon", "quantity":2}],[{"name": "Handaxe","quantity": 2},{"name": "Crossbow, light","quantity": 1, "bolts":20}],[{"name": "Dungeoneer's Pack", "quantity": 1},{"name": "Explorer's Pack", "quantity": 1}]],
     
   
     "subclasses": ["Champion"],
