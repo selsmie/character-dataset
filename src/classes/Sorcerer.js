@@ -1,0 +1,162 @@
+const Sorcerer = {
+    
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "hit_die": 6,
+        "proficiency_choices": ["Arcana","Deception","Insight","Intimidation","Persuasion","Religion",],
+        "proficiencies": ["Daggers","Quarterstaffs","Darts","Slings"],
+        "saving_throws": ["CON", "CHA"],
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "dagger",
+                    "name": "Dagger",
+                    "url": "/api/equipment/dagger"
+                },
+                "quantity": 2
+            }
+        ],
+        "starting_equipment_options": [
+            {
+                "choose": 1,
+                "type": "equipment",
+                "from": [
+                    {
+                        "0": {
+                            "equipment": {
+                                "index": "crossbow-light",
+                                "name": "Crossbow, light",
+                                "url": "/api/equipment/crossbow-light"
+                            },
+                            "quantity": 1
+                        },
+                        "1": {
+                            "equipment": {
+                                "index": "crossbow-bolt",
+                                "name": "Crossbow bolt",
+                                "url": "/api/equipment/crossbow-bolt"
+                            },
+                            "quantity": 20
+                        }
+                    },
+                    {
+                        "equipment_option": {
+                            "choose": 1,
+                            "type": "equipment",
+                            "from": {
+                                "equipment_category": {
+                                    "index": "simple-weapons",
+                                    "name": "Simple Weapons",
+                                    "url": "/api/equipment-categories/simple-weapons"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "choose": 1,
+                "type": "equipment",
+                "from": [
+                    {
+                        "equipment": {
+                            "index": "component-pouch",
+                            "name": "Component pouch",
+                            "url": "/api/equipment/component-pouch"
+                        },
+                        "quantity": 1
+                    },
+                    {
+                        "equipment_option": {
+                            "choose": 1,
+                            "type": "equipment",
+                            "from": {
+                                "equipment_category": {
+                                    "index": "arcane-foci",
+                                    "name": "Arcane Foci",
+                                    "url": "/api/equipment-categories/arcane-foci"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "choose": 1,
+                "type": "equipment",
+                "from": [
+                    {
+                        "equipment": {
+                            "index": "dungeoneers-pack",
+                            "name": "Dungeoneer's Pack",
+                            "url": "/api/equipment/dungeoneers-pack"
+                        },
+                        "quantity": 1
+                    },
+                    {
+                        "equipment": {
+                            "index": "explorers-pack",
+                            "name": "Explorer's Pack",
+                            "url": "/api/equipment/explorers-pack"
+                        },
+                        "quantity": 1
+                    }
+                ]
+            }
+        ],
+        "class_levels": "/api/classes/sorcerer/levels",
+        "subclasses": [
+            {
+                "index": "draconic",
+                "name": "Draconic",
+                "url": "/api/subclasses/draconic"
+            }
+        ],
+        "spellcasting": {
+            "info": [
+                {
+                    "desc": [
+                        "At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table."
+                    ],
+                    "name": "Cantrips"
+                },
+                {
+                    "desc": [
+                        "The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                        "For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+                    ],
+                    "name": "Spell Slots"
+                },
+                {
+                    "desc": [
+                        "You know two 1st-level spells of your choice from the sorcerer spell list.",
+                        "The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. ",
+                        "Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+                    ],
+                    "name": "Spells Known of 1st Level and Higher"
+                },
+                {
+                    "desc": [
+                        "Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one."
+                    ],
+                    "name": "Spellcasting Ability"
+                },
+                {
+                    "desc": [
+                        "You can use an arcane focus as a spellcasting focus for your sorcerer spells."
+                    ],
+                    "name": "Spellcasting Focus"
+                }
+            ],
+            "level": 1,
+            "spellcasting_ability": {
+                "index": "cha",
+                "name": "CHA",
+                "url": "/api/ability-scores/cha"
+            }
+        },
+        "spells": "/api/classes/sorcerer/spells",
+        "url": "/api/classes/sorcerer"
+    
+}
+export default Sorcerer
