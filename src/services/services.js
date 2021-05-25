@@ -1,4 +1,4 @@
-const dbURL = "http://localhost8080/"
+const dbURL = "http://localhost:8080/"
 
 const postLanguages = (languages) => {
     fetch(dbURL + "languages", {
