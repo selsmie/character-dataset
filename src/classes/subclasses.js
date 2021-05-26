@@ -200,574 +200,142 @@ const subclasses = [
                 "level": 7,
                 "prerequisites": "Circle of the Land: Forest",
                 "name": "Divination"
+            },  
+            {
+                "level": 9,
+                "prerequisites": "Circle of the Land: Forest",
+                "name": "Freedom of Movement",
+                    
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-forest",
-                        "type": "feature",
-                        "name": "Circle of the Land: Forest",
-                        "url": "/api/features/circle-of-the-land-forest"
-                    }
-                ],
-                "spell": {
-                    "index": "freedom-of-movement",
-                    "name": "Freedom of Movement",
-                    "url": "/api/spells/freedom-of-movement"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Forest",
+                "name": "Commune With Nature",
+                
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-forest",
-                        "type": "feature",
-                        "name": "Circle of the Land: Forest",
-                        "url": "/api/features/circle-of-the-land-forest"
-                    }
-                ],
-                "spell": {
-                    "index": "commune-with-nature",
-                    "name": "Commune With Nature",
-                    "url": "/api/spells/commune-with-nature"
-                }
+                "level": 3,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Tree Stride",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-forest",
-                        "type": "feature",
-                        "name": "Circle of the Land: Forest",
-                        "url": "/api/features/circle-of-the-land-forest"
-                    }
-                ],
-                "spell": {
-                    "index": "tree-stride",
-                    "name": "Tree Stride",
-                    "url": "/api/spells/tree-stride"
-                }
+                "level": 3,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Invisibility",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-3",
-                        "type": "level",
-                        "name": "Druid 3",
-                        "url": "/api/classes/druid/levels/3"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "invisibility",
-                    "name": "Invisibility",
-                    "url": "/api/spells/invisibility"
-                }
+                "level": 5,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Pass Without Trace",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-3",
-                        "type": "level",
-                        "name": "Druid 3",
-                        "url": "/api/classes/druid/levels/3"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "pass-without-trace",
-                    "name": "Pass Without Trace",
-                    "url": "/api/spells/pass-without-trace"
-                }
+                "level": 5,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Daylight",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-5",
-                        "type": "level",
-                        "name": "Druid 5",
-                        "url": "/api/classes/druid/levels/5"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "daylight",
-                    "name": "Daylight",
-                    "url": "/api/spells/daylight"
-                }
+                "level": 7,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Haste",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-5",
-                        "type": "level",
-                        "name": "Druid 5",
-                        "url": "/api/classes/druid/levels/5"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "haste",
-                    "name": "Haste",
-                    "url": "/api/spells/haste"
-                }
+                "level": 7,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Divination",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "divination",
-                    "name": "Divination",
-                    "url": "/api/spells/divination"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Freedom of Movement",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "freedom-of-movement",
-                    "name": "Freedom of Movement",
-                    "url": "/api/spells/freedom-of-movement"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Grassland",
+                "name": "Dream",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "dream",
-                    "name": "Dream",
-                    "url": "/api/spells/dream"
-                }
+                "level": 3,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Insect Plague",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-grassland",
-                        "type": "feature",
-                        "name": "Circle of the Land: Grassland",
-                        "url": "/api/features/circle-of-the-land-grassland"
-                    }
-                ],
-                "spell": {
-                    "index": "insect-plague",
-                    "name": "Insect Plague",
-                    "url": "/api/spells/insect-plague"
-                }
+                "level": 3,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Spider Climb",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-3",
-                        "type": "level",
-                        "name": "Druid 3",
-                        "url": "/api/classes/druid/levels/3"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "spider-climb",
-                    "name": "Spider Climb",
-                    "url": "/api/spells/spider-climb"
-                }
+                "level": 5,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Spike Growth",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-3",
-                        "type": "level",
-                        "name": "Druid 3",
-                        "url": "/api/classes/druid/levels/3"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "spike-growth",
-                    "name": "Spike Growth",
-                    "url": "/api/spells/spike-growth"
-                }
+                "level": 5,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Lightning Bolt",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-5",
-                        "type": "level",
-                        "name": "Druid 5",
-                        "url": "/api/classes/druid/levels/5"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "lightning-bolt",
-                    "name": "Lightning Bolt",
-                    "url": "/api/spells/lightning-bolt"
-                }
+                "level": 7,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Meld Into Stone",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-5",
-                        "type": "level",
-                        "name": "Druid 5",
-                        "url": "/api/classes/druid/levels/5"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "meld-into-stone",
-                    "name": "Meld Into Stone",
-                    "url": "/api/spells/meld-into-stone"
-                }
+                "level": 7,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Stone Shape",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "stone-shape",
-                    "name": "Stone Shape",
-                    "url": "/api/spells/stone-shape"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Stoneskin",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "stoneskin",
-                    "name": "Stoneskin",
-                    "url": "/api/spells/stoneskin"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Mountain",
+                "name": "Passwall",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "passwall",
-                    "name": "Passwall",
-                    "url": "/api/spells/passwall"
-                }
+                "level": 3,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Wall of Stone",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-mountain",
-                        "type": "feature",
-                        "name": "Circle of the Land: Mountain",
-                        "url": "/api/features/circle-of-the-land-mountain"
-                    }
-                ],
-                "spell": {
-                    "index": "wall-of-stone",
-                    "name": "Wall of Stone",
-                    "url": "/api/spells/wall-of-stone"
-                }
+                "level": 3,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Acid Arrow",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-3",
-                        "type": "level",
-                        "name": "Druid 3",
-                        "url": "/api/classes/druid/levels/3"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "acid-arrow",
-                    "name": "Acid Arrow",
-                    "url": "/api/spells/acid-arrow"
-                }
+                "level": 5,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Darkness",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-3",
-                        "type": "level",
-                        "name": "Druid 3",
-                        "url": "/api/classes/druid/levels/3"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "darkness",
-                    "name": "Darkness",
-                    "url": "/api/spells/darkness"
-                }
+                "level": 5,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Water Walk",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-5",
-                        "type": "level",
-                        "name": "Druid 5",
-                        "url": "/api/classes/druid/levels/5"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "water-walk",
-                    "name": "Water Walk",
-                    "url": "/api/spells/water-walk"
-                }
+                "level": 7,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Stinking Cloud",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-5",
-                        "type": "level",
-                        "name": "Druid 5",
-                        "url": "/api/classes/druid/levels/5"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "stinking-cloud",
-                    "name": "Stinking Cloud",
-                    "url": "/api/spells/stinking-cloud"
-                }
+                "level": 7,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Freedom of Movement",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "freedom-of-movement",
-                    "name": "Freedom of Movement",
-                    "url": "/api/spells/freedom-of-movement"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Locate Creature",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-7",
-                        "type": "level",
-                        "name": "Druid 7",
-                        "url": "/api/classes/druid/levels/7"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "locate-creature",
-                    "name": "Locate Creature",
-                    "url": "/api/spells/locate-creature"
-                }
+                "level": 9,
+                "prerequisites": "Circle of the Land: Swamp",
+                "name": "Insect Plague",
             },
             {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "insect-plague",
-                    "name": "Insect Plague",
-                    "url": "/api/spells/insect-plague"
-                }
+                "name": "Scrying"
             },
-            {
-                "prerequisites": [
-                    {
-                        "index": "druid-9",
-                        "type": "level",
-                        "name": "Druid 9",
-                        "url": "/api/classes/druid/levels/9"
-                    },
-                    {
-                        "index": "circle-of-the-land-swamp",
-                        "type": "feature",
-                        "name": "Circle of the Land: Swamp",
-                        "url": "/api/features/circle-of-the-land-swamp"
-                    }
-                ],
-                "spell": {
-                    "index": "scrying",
-                    "name": "Scrying",
-                    "url": "/api/spells/scrying"
-                }
-            }
         ]
     },
     {
